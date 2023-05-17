@@ -1,4 +1,4 @@
-package chainOfResponsibility.models;
+package chainOfResponsibility_ExpenseApproval.models;
 
 /**
  * Author: Thalys Henrique

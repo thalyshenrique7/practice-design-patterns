@@ -1,10 +1,10 @@
-package chainOfResponsibility.test;
+package chainOfResponsibility_ExpenseApproval.test;
 
-import chainOfResponsibility.handlers.ExpenseHandler;
-import chainOfResponsibility.models.CEO;
-import chainOfResponsibility.models.Director;
-import chainOfResponsibility.models.Expense;
-import chainOfResponsibility.models.Manager;
+import chainOfResponsibility_ExpenseApproval.handlers.ExpenseHandler;
+import chainOfResponsibility_ExpenseApproval.models.CEO;
+import chainOfResponsibility_ExpenseApproval.models.Director;
+import chainOfResponsibility_ExpenseApproval.models.Expense;
+import chainOfResponsibility_ExpenseApproval.models.Manager;
 import org.junit.Before;
 import org.junit.Test;
 

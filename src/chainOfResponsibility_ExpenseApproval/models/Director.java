@@ -1,6 +1,6 @@
-package chainOfResponsibility.models;
+package chainOfResponsibility_ExpenseApproval.models;
 
-import chainOfResponsibility.handlers.ExpenseHandler;
+import chainOfResponsibility_ExpenseApproval.handlers.ExpenseHandler;
 
 /**
  * Author: Thalys Henrique
@@ -9,11 +9,11 @@ import chainOfResponsibility.handlers.ExpenseHandler;
  * Expense Approval App
  */
 
-public class Manager extends ExpenseHandler {
+public class Director extends ExpenseHandler {
 
     @Override
     protected boolean canApproveExpense(Expense expense) {
-        if(expense.getValue() > 0 && expense.getValue() <= 1000){
+        if(expense.getValue() > 0 && expense.getValue() <= 5000){
             return true;
         }
         return false;
@@ -21,6 +21,6 @@ public class Manager extends ExpenseHandler {
 
     @Override
     protected void doApproveExpense(Expense expense) {
-        System.out.println("Expenses Manager approve");
+        System.out.println("Expenses Director approved");
     }
 }

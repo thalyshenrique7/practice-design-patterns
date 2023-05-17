@@ -1,6 +1,6 @@
-package chainOfResponsibility.models;
+package chainOfResponsibility_ExpenseApproval.models;
 
-import chainOfResponsibility.handlers.ExpenseHandler;
+import chainOfResponsibility_ExpenseApproval.handlers.ExpenseHandler;
 
 /**
  * Author: Thalys Henrique
